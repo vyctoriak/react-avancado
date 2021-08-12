@@ -11,9 +11,9 @@ describe('testing Main component', () => {
     ).toBeInTheDocument() //o i serve para NÃO fazer diferença entre maiúsculas ou minúsculas
   })
 
-  it('should render correctly', () => {
+  /*it('should render correctly', () => {
     const { container } = render(<Main />)
 
     expect(container.firstChild).toMatchSnapshot()
-  })
+  })*/
 })
